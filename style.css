@@ -1,0 +1,73 @@
+/*===========================BODY===================*/
+
+.contenedoras{
+    background-image: linear-gradient(to right,blue,white,red,white,yellow,white);
+}
+
+/*=============================== SLIDER
+ DE IMAGENES===================*/
+
+ .foto1:hover{
+     transform: rotate(30deg);
+ }
+
+ .foto4:hover{
+    transform: rotate(30deg);
+}
+
+.foto5:hover{
+    transform: rotate(30deg);
+}
+
+ .carousel-inner{
+     max-height: 39rem;
+ }
+
+ /*===============================CONTACTO===================*/
+
+#container form {
+    position:absolute;
+}
+
+/*===============================NOSOTROS===================*/
+
+.imagen-sombrero:hover{
+    transform: rotate(180deg);
+}
+
+ /*======================FOOTER===================*/
+ 
+ 
+ footer{
+     background: rgb(155, 155, 224);
+    min-height: 100px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: white;
+}
+
+
+
+/*==========================MEDIA QUERIES PANTALLA
+ TABLET===================*/
+
+
+ @media (max-wigth: 768px) {
+     #intro  #emprendedoras {
+         width: 90% !important; 
+     }
+
+     .productos-fila{
+         width: 100% !important;
+         text-align: center;
+     }
+
+}
